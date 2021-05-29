@@ -1,0 +1,33 @@
+# Spring RESTful Web Service
+https://spring.io/guides/gs/rest-service/
+
+#Create a Spring Boot project
+#From the main menu, select File | New | Project.
+#In the left pane of the New Project wizard, select Spring Initializr.
+
+# Make an application
+
+# Build Maven project
+./mvnw spring-boot:run
+
+# Open browser and type to see JSON {"id":1,"content":"Hello, World!"}
+http://localhost:8080/greeting
+
+# Open browser and type to see JSON {"id":2,"content":"Hello, User!"}
+http://localhost:8080/greeting?name=User
+
+
+# Create the GitHub initial project
+https://github.com/KeithTurner1/SpringRESTfulWebService.git
+
+# From IntelliJ "link" InteeliJ and GitHub
+Select ‘VCS’ menu -> Import in Version Control -> Share project on GitHub.
+You may be prompted for you GitHub, or IntelliJ Master, password
+Select the files to commit
+
+# From IntelliJ add files to GitHub
+Right click -> Git -> Add
+Commit files (Ctrl-K or VCS -> Git -> Commit) [Commit & push easier, but can also just Commit]
+If files not pushed in step above, VCS -> Git -> Push
+
+
